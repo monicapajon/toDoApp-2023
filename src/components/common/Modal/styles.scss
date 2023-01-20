@@ -1,0 +1,10 @@
+.custom-modal {
+    border: 1px solid #EEE;
+    position: absolute;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    top: 200px;
+    left: calc(50vw - 300px);
+    box-shadow: 0 0 1000px 100px rgba(0,0,0,0.5);
+}
