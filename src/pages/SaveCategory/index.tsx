@@ -16,7 +16,7 @@ const SaveCategory = () => { //useState acepta un estado inicial y devuelve 2 va
             });
         };
     };
-    fetchCategory();
+    if(catName ==='') fetchCategory();//Se hace el if porque si no cada vez q se haga una modificación va a ir a la bd.Que lo haga solo cuando la categoría no esté cargada y si ya esta cargada lo va a seguir haciendo y va a estar pisando todo el tiempo los valores
 
 
     const saveCategory = (e: any) => {//1
